@@ -1,7 +1,9 @@
 source 'https://rubygems.org'
 
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'haml-rails', '~> 0.9.0'
+gem 'simple_form', '~> 3.2', '>= 3.2.1'
+gem 'devise', '~> 3.5', '>= 3.5.6'
 gem 'rails', '4.2.5'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
@@ -44,4 +46,3 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-
